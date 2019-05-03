@@ -3,7 +3,7 @@ import random
 import argparse
 from bottle import route, run, template
 
-from _version import __version__
+from __version import __version__
 
 
 @route('/id', method='GET')
