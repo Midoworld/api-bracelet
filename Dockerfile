@@ -6,4 +6,4 @@ ADD __version.py /
 
 RUN pip install bottle
 
-CMD [ "python", "./" __main__.py]
+CMD [ "python", "./__main__.py"]
