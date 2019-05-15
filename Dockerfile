@@ -2,7 +2,7 @@ FROM python:3
 
 ADD __main__.py /
 
-ADD __version.py /
+ADD _version.py /
 
 RUN pip install bottle
 
